@@ -2,22 +2,16 @@
   "name": "your-app-name",
   "version": "1.0.0",
   "description": "Your app description",
-  "main": "index.js",
+  "main": "scraper.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node scraper.js"
   },
   "engines": {
     "node": "16.x",
     "npm": "7.x"
   },
   "dependencies": {
-    "express": "^4.17.1"
-  }
-}
-{
-  "version": "0.0.1",
-  "main": "scraper.js",
-  "dependencies": {
+    "express": "^4.17.1",
     "cheerio": "latest",
     "request": "latest",
     "sqlite3": "latest"
@@ -27,6 +21,3 @@
     "morph"
   ]
 }
-git add package.json
-git commit -m "Specify correct Node.js version"
-git push origin main
