@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node scraper.js"
   },
-  "engines": {
-    "node": "14.x"
-  },
   "dependencies": {
     "cheerio": "latest",
     "request": "latest",
@@ -19,3 +16,4 @@
     "morph"
   ]
 }
+
