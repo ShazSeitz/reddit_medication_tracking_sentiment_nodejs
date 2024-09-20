@@ -23,6 +23,7 @@
 
   ]
 }
+
 git add package.json
-git commit -m "Specify correct Node.js version"
+git commit -m "Fix syntax in package.json"
 git push origin main
