@@ -1,4 +1,20 @@
 {
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "Your app description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+{
   "version": "0.0.1",
   "main": "scraper.js",
   "dependencies": {
