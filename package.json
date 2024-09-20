@@ -7,8 +7,8 @@
     "start": "node scraper.js"
   },
   "engines": {
-    "node": "16.14.0",
-    "npm": "7.20.0"
+    "node": "^16.14.0",
+    "npm": "^7.20.0"
   },
   "dependencies": {
     "cheerio": "latest",
@@ -20,3 +20,4 @@
     "morph"
   ]
 }
+
